@@ -71,6 +71,38 @@ body{
     justify-content: space-between;
     align-items: center;
 }
+.x{
+    width: 30%;
+}
+.quantity{
+    width: 10%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+}
+.quantity p{
+    font-weight: bold;
+}
+.decrement , .increment{
+    width: 25%;
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    border-radius: 50%;
+    color: #fff;
+    background-color: rgb(0, 119, 255);
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.decrement h4{
+    margin-right: 1.5px;
+    margin-bottom: 2.5px;
+}
 .bi-trash{
     cursor: pointer;
 }
